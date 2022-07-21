@@ -1,0 +1,66 @@
+body {
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.container {
+    width: 250px;
+    margin: 0 auto;
+    border: 5px blue solid;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 23px;
+    line-height: 46px;
+    margin-top: 15px;
+}
+
+.dates {
+    margin-top: 15px;
+}
+
+.date-1 {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.date-2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.setDateBtn {
+    margin-top: 5px;
+    width: 150px;
+    height: 35px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: #0000FF;
+    color: #FFF;
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    cursor: pointer;
+    margin-bottom: 15px;
+} 
+
+.setDateBtn:hover {
+   background-color: #00ffff;
+   transition: 0.8s;
+   color: #000;
+   border-radius: 25px;
+} 
